@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alfian Rivaldi</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style media="screen">
+  html{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .margin-nav{
+    padding: 0 50px
+  }
+  .section-cover{
+    height: 450px;
+    background: url(http://malayachronicles.com/wp-content/uploads/2015/12/thinkstockphotos-480166016.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .profile-pic{
+    margin-top: 20%;
+  }
+  .thumbnail {
+    border-radius: 50%;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+  }
+  .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+  }
+  .half-transparent{
+    background: rgba(255, 255, 255, 0.6) !important;
+  }
+  .tab-content{
+    padding: 20px;
+    height: auto !important;
+    margin-top: -20px;
+    border-radius: 5px;
+  }
+  .tab .active{
+    color:#0D47A1 !important;
+  }
+  .tabs .indicator{
+    background-color:#0D47A1 !important;
+  }
+  </style>
+</head>
+<body class="grey lighten-3">
+  <div class="navbar-fixed">
+    <nav class="blue darken-4 margin-nav">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Alfian Rivaldi</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a><i class="material-icons">people</i></a></li>
+          <li><a><i class="material-icons">notifications</i></a></li>
+          <li><a><i class="material-icons">settings</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="section section-cover white">
+    <div class="container">
+      <div class="profile-pic">
+        <div class="row">
+          <div class="col m2">
+            <div class="thumbnail z-depth-5">
+              <img src="img/profile.jpg" alt="Image" />
+            </div>
+          </div>
+          <div class="col m4 left">
+            <h4 class="white-text">Alfian Rivaldi</h4>
+            <a class="waves-effect waves-light btn white black-text half-transparent">Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="margin-nav">
+    <div class="row" style="margin:0">
+      <div class="col m8 offset-m4">
+        <ul class="tabs tab-content z-depth-5">
+          <li class="tab col m6"><a class="grey-text active" href="#about"><b>About</b></a></li>
+          <li class="tab col m6"><a class="grey-text " href="#skill"><b>Skill</b></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m4">
+        <div class="card white z-depth-5">
+          <div class="card-content black-text">
+            <div class="row">
+              <div class="col m1">
+                <i class="material-icons grey-text text-darken-2">face</i>
+              </div>
+              <div class="col m10">
+                Intro
+              </div>
+            </div>
+            <div class="divider">
+            </div>
+            <br>
+            <div class="row">
+              <div class="col m12">
+                <b>Programmer</b><br>
+                <p class="grey-text">Lives in Bogor, West Java 16810<br>From Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col m8">
+          <div id="skill" class="col s12" style="padding:0">
+            <div class="card white z-depth-5">
+              <div class="card-content black-text">
+                <table>
+                  <tr>
+                    <th colspan="3">SKILL</th>
+                  </tr>
+                  <tr>
+                    <td width="20%">HTML</td>
+                    <td width="70%">
+                      <div class="progress">
+                        <div class="determinate red" style="width: 90%"></div>
+                      </div>
+                    </td>
+                    <td><span class="strong">90%</span></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">PHP</td>
+                    <td>
+                      <div class="progress">
+                        <div class="determinate green" style="width: 70%"></div>
+                      </div>
+                    </td>
+                    <td><span class="strong">70%</span></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">javascript</td>
+                    <td>
+                      <div class="progress">
+                        <div class="determinate blue" style="width: 60%"></div>
+                      </div>
+                    </td>
+                    <td><span class="strong">60%</span></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">Photoshop</td>
+                    <td>
+                      <div class="progress">
+                        <div class="determinate yellow" style="width: 80%"></div>
+                      </div>
+                    </td>
+                    <td><span class="strong">80%</span></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div id="about" class="col s12" style="padding:0">
+            <div class="card white z-depth-5">
+              <div class="card-content black-text">
+                <table>
+                  <tr>
+                    <th colspan="2">BASIC INFO</th>
+                  </tr>
+                  <tr>
+                    <td width="20%">Name</td>
+                    <td>Alfian Rivaldi</td>
+                  </tr>
+                  <tr>
+                    <td width="20%">Age</td>
+                    <td class="age"></td>
+                  </tr>
+                  <tr>
+                    <td width="20%">Email</td>
+                    <td>alfian.rivaldi8@gmail.com</td>
+                  </tr>
+                </table>
+
+                <table style="margin-top:30px">
+                  <tr>
+                    <th colspan="2">EDUCATION</th>
+                  </tr>
+                  <tr>
+                    <td width="20%">2015</td>
+                    <td>SMK 1 Triple J</td>
+                  </tr>
+                  <tr>
+                    <td width="20%">Present</td>
+                    <td>Universitas MH Thamrin</td>
+                  </tr>
+                </table>
+
+                <table style="margin-top:30px">
+                  <tr>
+                    <th colspan="3">EXPERIENCE</th>
+                  </tr>
+                  <tr>
+                    <td width="20%">2016 - Present</td>
+                    <td>Programmer</td>
+                    <td>PT. Cardig International</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer blue darken-4" style="padding:0">
+      <div class="footer-copyright" style="padding:0 50px">
+        &copy; 2018 Copyright Alfian Rivaldi
+        <a class="grey-text text-lighten-4 right" href="https://instagram.com/alfianriv">@alfianriv</a>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.tabs').tabs();
+
+      var currentYear = (new Date()).getFullYear();
+      var bornYear = 1997;
+      var age = parseInt(currentYear - bornYear);
+      $('.age').text(age);
+
+      var img = $('.thumbnail').find('img');
+      var widthImg = img.width();
+      var heightImg = img.height();
+      if(widthImg < heightImg){
+        img.addClass('portrait');
+      }
+
+    });
+    </script>
+  </body>
+  </html>

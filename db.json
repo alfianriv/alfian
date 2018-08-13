@@ -1,0 +1,11 @@
+{
+  "users":[
+    {
+      "email" : "alfian.rivaldi8@gmail.com",
+      "password" : "password"
+    },{
+      "email" : "admin@gmail.com",
+      "password" : "password"
+    }
+  ]
+}

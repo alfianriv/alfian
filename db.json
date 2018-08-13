@@ -1,9 +1,11 @@
 {
   "users":[
     {
+      "id" : 1,
       "email" : "alfian.rivaldi8@gmail.com",
       "password" : "password"
     },{
+      "id" : 2,
       "email" : "admin@gmail.com",
       "password" : "password"
     }
